@@ -1,0 +1,15 @@
+path: public
+
+core config:
+  dbuser: root
+  dbpass:
+  dbname: wordpress
+
+core install:
+  title: Sample Planet 4 website
+  url: http://127.0.0.1:9191
+  admin_user: admin
+  admin_email: admin@example.com
+
+theme activate: 
+  - twentysixteen
