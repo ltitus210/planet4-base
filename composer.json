@@ -31,7 +31,7 @@
 	},
 
 	"scripts": {
-		"start": "php -S 127.0.0.1:9191 -t public public/index.php",
+		"server": "php -S 127.0.0.1:9191 -t public",
 		"link": ["@link:plugins"],
 		"link:plugins": "rm -rf public/wp-content/plugins && ln -s ../../plugins/ public/wp-content/plugins",
 		"link:themes": "rm -rf public/wp-content/themes && ln -s ../../themes/ public/wp-content/themes",
