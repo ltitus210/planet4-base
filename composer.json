@@ -26,7 +26,7 @@
 		"installer-paths": {
 			"public/": ["wordpress/wordpress"],
 			"plugins/{$name}/": ["type:wordpress-plugin"],
-			"themes/{$name}/": ["type:wordpress-theme"]
+			"themes/{$name}/": ["_type:wordpress-theme"]
 		}
 	},
 
