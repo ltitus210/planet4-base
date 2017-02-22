@@ -31,6 +31,7 @@
 	},
 
 	"scripts": {
+		"start": ["@config", "@server"],
 		"server": "php -S 127.0.0.1:9191 -t public",
 		"link": ["@link:plugins"],
 		"link:plugins": "rm -rf public/wp-content/plugins && ln -s ../../plugins/ public/wp-content/plugins",
