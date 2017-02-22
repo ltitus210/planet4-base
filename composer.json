@@ -36,9 +36,10 @@
 		"link": ["@link:plugins"],
 		"link:plugins": "rm -rf public/wp-content/plugins && ln -s ../../plugins/ public/wp-content/plugins",
 		"link:themes": "rm -rf public/wp-content/themes && ln -s ../../themes/ public/wp-content/themes",
+		"config:plugins": "wp plugin activate --all",
 		"config:theme": "wp theme activate",
 		"config:file": "wp core config --force",
 		"config:install": "wp core install",
-		"config": ["@config:file", "@config:install", "@config:theme"]
+		"config": [ "@config:file", "@link", "@config:install", "@config:plugins", "@config:theme"]
 	}
 }
