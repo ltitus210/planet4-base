@@ -2,10 +2,16 @@
 	"name": "greenpeace/planet4-base",
 	"version": "0.1.0",
 
-	"repositories": [{
-		"type": "composer",
-		"url": "http://picasso.local/~tobias/Greenpeace/planet4-registry/public/"
-	}],
+	"repositories": [
+		{
+			"type": "composer",
+			"url": "http://127.0.0.1:9292/"
+		},
+		{
+			"type": "composer",
+			"url": "https://wpackagist.org"
+		}
+	],
 
 	"require": {
 		"greenpeace/planet4-wordpress": "4.7.2",
