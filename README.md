@@ -1,15 +1,19 @@
 # Greenpeace Planet 4
-This project provides the base for all Planet 4 sites. 
+
+This project provides the base for all Planet 4 sites.
+
 To create a new project, that is powered by Planet 4, fork this repository.
 
 ## Prerequisite
-You will need to have composer available on your system.
-You will also need both git and subversion (since some core wordpress components are
+
+- You will need to have PHP and composer available on your system.
+- You will also need both git and subversion (since some core wordpress components are
 using svn).
-You will mysql
+- You will also need mysql or mariadb installed as well.
 
 ## Installation
-All dependencies should be managed by [Composer](http://getcomposer.org). 
+
+All dependencies should be managed by [Composer](http://getcomposer.org).
 They are listed inside the `composer.json` file in the root of this repository.
 Install all required dependencies with one simple command:
 ```
@@ -57,13 +61,15 @@ More information about this is available in the man page of `mysql` or
 After the database is created, the new Wordpress installation is installed with 
 one simple composer command:
 ```
-composer run config
+composer run-script config
 ```
 
 This will perform multiple steps:
-
+- Create a public directy and copy the Wordpress core in it
 - Create a `wp-config.php` file with default values from the `wp-cli.yml`.
 - Create the initial database structure and insert the default data
+- Copy themes and plugins listed as dependencies in `composer.json`.
+- Activate all the plugins listed as dependencies.
 - Activate the theme that is configured inside the `wp-cli.yml`
 
 ## Installing an alternate theme
