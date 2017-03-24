@@ -19,13 +19,22 @@ Install all required dependencies with one simple command:
 ```
 composer install
 ```
+
 If you want to add more dependencies to this project, you should also always
-add them to the composer file. No manual copying of files should be necessary and any time.
+add them to the composer file. No manual copying of plugins or themes should be
+necessary and any time.
 
 ## Configuration
-The complete configuration of Wordpress is stored inside the `wp-cli.yml` file.
-When you need to change the database configuration, the title or the URL of this
-installation, please take a look at that file.
+You need to create a [Wordpress command line](http://wp-cli.org/) configuration file.
+You can do that by copying the default one:
+```
+cp wp-cli.yml.default wp-cli.yml
+```
+
+This file is not tracked by default since it contains the complete configuration of
+your Wordpress instance such as your database user passwod. When you need to change
+the database configuration, the title or the URL of this
+installation, please edit `wp-cli.yml`.
 ```
 path: public
 
