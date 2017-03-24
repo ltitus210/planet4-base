@@ -5,7 +5,7 @@
 	"repositories": [
 		{
 			"type": "composer",
-			"url": "http://127.0.0.1:9292/"
+			"url": "http://registry.planet4.dev"
 		},
 		{
 			"type": "composer",
@@ -14,9 +14,12 @@
 	],
 
 	"require": {
-		"greenpeace/planet4-wordpress": "4.7.2",
 		"composer/installers": "~1.0",
-		"wp-cli/wp-cli": "^1.1"
+		"wp-cli/wp-cli": "^1.1",
+		"greenpeace/planet4-wordpress": "4.7.2",
+		"greenpeace/planet4-master-theme" : "0.1.0",
+		"greenpeace/planet4-child-theme" : "0.1.2",
+		"greenpeace/planet4-plugin-mappress-google-maps-for-wordpress": "2.43.10"
 	},
 
 	"config": {
@@ -25,22 +28,40 @@
 
 	"extra": {
 		"installer-paths": {
-			"public/": ["greenpeace/planet4-wordpress-upstream"],
-			"plugins/{$name}/": ["type:wordpress-plugin"],
-			"themes/{$name}/": ["_type:wordpress-theme"]
+			"vendor/plugins/{$name}/": ["type:wordpress-plugin"],
+			"vendor/themes/{$name}/": ["type:wordpress-theme"]
 		}
 	},
 
 	"scripts": {
-		"start": ["@config", "@server"],
-		"server": "php -S 127.0.0.1:9191 -t public",
-		"link": ["@link:plugins"],
-		"link:plugins": "rm -rf public/wp-content/plugins && ln -s ../../plugins/ public/wp-content/plugins",
-		"link:themes": "rm -rf public/wp-content/themes && ln -s ../../themes/ public/wp-content/themes",
-		"config:plugins": "wp plugin activate --all",
-		"config:theme": "wp theme activate",
-		"config:file": "wp core config --force",
-		"config:install": "wp core install",
-		"config": [ "@config:file", "@link", "@config:install", "@config:plugins", "@config:theme"]
+		"config": [
+			"@site-init-dir",
+			"@core:config", "@core:install",
+			"@plugin:activate", "@theme:activate"
+		],
+
+		"site-init-dir" : [
+			"@reset:public", "@copy:wordpress",
+			"@reset:themes", "@reset:plugins", "@copy:themes", "@copy:plugins"
+		],
+
+		"theme:install": ["@copy:theme", "@theme:activate"],
+		"plugin:install": ["@copy:plugin", "@plugin:activate"],
+
+		"reset:public" : "rm -rf public; mkdir public",
+		"reset:themes" : "rm -rf public/wp-content/themes",
+		"reset:plugins" : "rm -rf public/wp-content/plugins",
+
+		"copy:wordpress": "cp -rf vendor/greenpeace/planet4-wordpress-upstream/* public",
+		"copy:plugins" : "cp -rf vendor/plugins public/wp-content",
+		"copy:themes" : "cp -rf vendor/themes public/wp-content",
+
+		"core:config": "wp core config --force",
+		"core:install": "wp core install",
+
+		"plugin:activate": "wp plugin activate --all",
+		"theme:activate": "wp theme activate",
+
+		"server": "php -S 127.0.0.1:9191 -t public"
 	}
 }
