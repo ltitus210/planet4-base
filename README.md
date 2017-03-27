@@ -70,7 +70,7 @@ More information about this is available in the man page of `mysql` or
 After the database is created, the new Wordpress installation is installed with 
 one simple composer command:
 ```
-composer run-script config
+composer run-script install
 ```
 
 This will perform multiple steps:
@@ -80,6 +80,21 @@ This will perform multiple steps:
 - Copy themes and plugins listed as dependencies in `composer.json`.
 - Activate all the plugins listed as dependencies.
 - Activate the theme that is configured inside the `wp-cli.yml`
+
+## Updating
+In case a new version of the Wordpress core (a theme or plugin) is published and
+you can update your base site by changing the version in `composer.json` and/or
+running the update:
+```
+composer update
+composer run-script update
+```
+
+This will perform multiple steps:
+- Fetch the new versions and dependencies
+- Merge the new wordpress core in the public directory without deleting your added files
+- Copy all the themes and plugins
+- Deactivate and reactivate all the plugins
 
 ## Installing an alternate theme
 Themes should never be changed inside the web front-end. 
