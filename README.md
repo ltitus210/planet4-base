@@ -94,6 +94,7 @@ This will perform multiple steps:
 - Fetch the new versions and dependencies
 - Merge the new wordpress core in the public directory without deleting your added files
 - Copy all the themes and plugins
+- Run Wordpress core database udpates if any
 - Deactivate and reactivate all the plugins
 
 ## Installing an alternate theme
