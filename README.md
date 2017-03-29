@@ -70,7 +70,7 @@ More information about this is available in the man page of `mysql` or
 After the database is created, the new Wordpress installation is installed with 
 one simple composer command:
 ```
-composer run-script install
+composer run-script site-install
 ```
 
 This will perform multiple steps:
@@ -87,7 +87,7 @@ you can update your base site by changing the version in `composer.json` and/or
 running the update:
 ```
 composer update
-composer run-script update
+composer run-script site-update
 ```
 
 This will perform multiple steps:
