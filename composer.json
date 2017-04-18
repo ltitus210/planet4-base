@@ -19,7 +19,8 @@
 		"greenpeace/planet4-wordpress": "4.7.3",
 		"greenpeace/planet4-master-theme" : "0.1.2",
 		"greenpeace/planet4-child-theme" : "0.1.2",
-		"greenpeace/planet4-plugin-mappress-google-maps-for-wordpress": "2.43.10"
+		"greenpeace/planet4-plugin-mappress-google-maps-for-wordpress": "2.43.10",
+		"greenpeace/planet4-content-default": "0.1.0"
 	},
 
 	"config": {
@@ -60,7 +61,7 @@
 		"core:config": "wp core config --force",
 		"core:install": "wp core install",
 		"core:updatedb": "wp core update-db",
-		"core:initialdb": "wp post update 1 default-post",
+		"core:initialdb": "wp post update 1 vendor/greenpeace/planet4-content-default/default-post",
 
 		"plugin:deactivate": "wp plugin deactivate --all",
 		"plugin:activate": "wp plugin activate --all",
