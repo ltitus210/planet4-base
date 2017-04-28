@@ -53,6 +53,10 @@ theme activate:
   - planet4-master-theme
 ```
 
+NOTE: your website will be installed on the subdirectory "public" of the current
+directory. Make sure that the "url" in the above configuration points to the 
+directory "public" so that wordpress sets up its live_site configurations correctly.
+
 ## Database setup
 Before we can initialize the installation, make sure you did create the database
 that is configured inside the configuration file. This can be easily done with this
