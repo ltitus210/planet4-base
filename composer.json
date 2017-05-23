@@ -19,7 +19,6 @@
 		"greenpeace/planet4-wordpress": "4.7.5",
 		"greenpeace/planet4-master-theme" : "0.1.2",
 		"greenpeace/planet4-child-theme" : "0.1.2",
-		"greenpeace/planet4-plugin-mappress-google-maps-for-wordpress": "2.43.10",
 		"greenpeace/planet4-content-default": "0.2.3"
 	},
 
@@ -63,7 +62,6 @@
 		"core:install": "wp core install",
 		"core:updatedb": "wp core update-db",
 		"core:initial-content": "composer run-script content-default -d vendor/greenpeace/planet4-content-default ",
-
 
 		"plugin:deactivate": "wp plugin deactivate --all",
 		"plugin:activate": "wp plugin activate --all",
