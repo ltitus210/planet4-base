@@ -2,6 +2,5 @@ public
 plugins
 themes
 vendor
-composer.lock
 .idea
 wp-cli.yml
