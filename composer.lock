@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "9791482a8a12e7be76e8cca619524974",
-    "content-hash": "5818c707fcd8d5bfe873db6656e86e53",
+    "hash": "a64efe2716f39a000e87b72c6fd98af4",
+    "content-hash": "79c745bd5365990b4614e4eea385f754",
     "packages": [
         {
             "name": "composer/ca-bundle",
@@ -426,17 +426,17 @@
         },
         {
             "name": "greenpeace/planet4-content-default",
-            "version": "0.2.3",
+            "version": "0.2.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/greenpeace/planet4-content-default.git",
-                "reference": "677c85d6d1144348714011886b27f1b0037eddff"
+                "reference": "7ba5af77c3184284c22ba9fab62fe85326fe82c3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://p4-composer-registry.greenpeace.org//dist/greenpeace/planet4-content-default/greenpeace-planet4-content-default-677c85d6d1144348714011886b27f1b0037eddff-zip-74a5db.zip",
-                "reference": "677c85d6d1144348714011886b27f1b0037eddff",
-                "shasum": "1c96d2abf5fa07c6b82ac246f66ec58f7704a9a3"
+                "url": "https://p4-composer-registry.greenpeace.org//dist/greenpeace/planet4-content-default/greenpeace-planet4-content-default-7ba5af77c3184284c22ba9fab62fe85326fe82c3-zip-06c676.zip",
+                "reference": "7ba5af77c3184284c22ba9fab62fe85326fe82c3",
+                "shasum": "e3c521f69f52ac5534d004b4ee05ffa69534f77c"
             },
             "type": "library",
             "scripts": {
@@ -487,17 +487,17 @@
             ],
             "description": "Scripts that control the default content of the default planet4 installation",
             "support": {
-                "source": "https://github.com/greenpeace/planet4-content-default/tree/v0.2.3",
+                "source": "https://github.com/greenpeace/planet4-content-default/tree/master",
                 "issues": "https://github.com/greenpeace/planet4-content-default/issues"
             },
-            "time": "2017-05-12 09:25:13"
+            "time": "2017-05-29 11:14:40"
         },
         {
             "name": "greenpeace/planet4-master-theme",
             "version": "v0.1.2",
             "source": {
                 "type": "git",
-                "url": "git@github.com:greenpeace/planet4-master-theme.git",
+                "url": "https://github.com/greenpeace/planet4-master-theme.git",
                 "reference": "02fd37e625bc42853c06a6ba36550244e0630f55"
             },
             "dist": {
