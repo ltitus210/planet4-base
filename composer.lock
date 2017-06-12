@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "623287b0f4da4ba568abdb002af198a6",
+    "content-hash": "50bd21fbf2ec10d6bbf77af6bf305b10",
     "packages": [
         {
             "name": "composer/ca-bundle",
@@ -389,9 +389,9 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://greenpeace.github.io/planet4-registry//dist/greenpeace/planet4-child-theme/greenpeace-planet4-child-theme-bba52feb8d8bb3d80b76fb008626e853ee335cc8-zip-3cc591.zip",
+                "url": "https://p4-composer-registry.greenpeace.org//dist/greenpeace/planet4-child-theme/greenpeace-planet4-child-theme-bba52feb8d8bb3d80b76fb008626e853ee335cc8-zip-3cc591.zip",
                 "reference": "bba52feb8d8bb3d80b76fb008626e853ee335cc8",
-                "shasum": "e46a918ae59f75f80925c2719fdfa0219e339e76"
+                "shasum": "e2abe1dc377f07c1dfd3ac073f8c2835a1c01606"
             },
             "require": {
                 "wpackagist-plugin/timber-library": "0.22.*"
@@ -425,17 +425,17 @@
         },
         {
             "name": "greenpeace/planet4-content-default",
-            "version": "0.2.6",
+            "version": "0.2.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/greenpeace/planet4-content-default.git",
-                "reference": "2f592874a2fbfeced0bea8a90e51546671f2a7c2"
+                "reference": "7b7bf1e68b66d6040f946994dad1313c7122eaa2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://greenpeace.github.io/planet4-registry//dist/greenpeace/planet4-content-default/greenpeace-planet4-content-default-2f592874a2fbfeced0bea8a90e51546671f2a7c2-zip-6a044d.zip",
-                "reference": "2f592874a2fbfeced0bea8a90e51546671f2a7c2",
-                "shasum": "fcafd593ee76893bc33c2bcdbd1a75d3f945b065"
+                "url": "https://p4-composer-registry.greenpeace.org//dist/greenpeace/planet4-content-default/greenpeace-planet4-content-default-7b7bf1e68b66d6040f946994dad1313c7122eaa2-zip-6fb668.zip",
+                "reference": "7b7bf1e68b66d6040f946994dad1313c7122eaa2",
+                "shasum": "830f8732b4edbc4b1c20e89631723999f062803f"
             },
             "type": "library",
             "scripts": {
@@ -486,10 +486,10 @@
             ],
             "description": "Scripts that control the default content of the default planet4 installation",
             "support": {
-                "source": "https://github.com/greenpeace/planet4-content-default/tree/v0.2.6",
+                "source": "https://github.com/greenpeace/planet4-content-default/tree/master",
                 "issues": "https://github.com/greenpeace/planet4-content-default/issues"
             },
-            "time": "2017-06-09T10:04:50+00:00"
+            "time": "2017-06-12T13:59:43+00:00"
         },
         {
             "name": "greenpeace/planet4-master-theme",
@@ -501,9 +501,9 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://greenpeace.github.io/planet4-registry//dist/greenpeace/planet4-master-theme/greenpeace-planet4-master-theme-02fd37e625bc42853c06a6ba36550244e0630f55-zip-207013.zip",
+                "url": "https://p4-composer-registry.greenpeace.org//dist/greenpeace/planet4-master-theme/greenpeace-planet4-master-theme-02fd37e625bc42853c06a6ba36550244e0630f55-zip-207013.zip",
                 "reference": "02fd37e625bc42853c06a6ba36550244e0630f55",
-                "shasum": "6eb9bb8a2d61a7a3a5acf285e5f8fe4faae423d1"
+                "shasum": "7a0730f5c2a363f75890b9dd0b1bad6ff9d8fc91"
             },
             "require": {
                 "wpackagist-plugin/timber-library": "0.22.*"
@@ -549,9 +549,9 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://greenpeace.github.io/planet4-registry//dist/greenpeace/planet4-wordpress/greenpeace-planet4-wordpress-4.8-545b82.zip",
+                "url": "https://p4-composer-registry.greenpeace.org//dist/greenpeace/planet4-wordpress/greenpeace-planet4-wordpress-4.8-545b82.zip",
                 "reference": "fc61b288b1d88346b9908b4d81f2dd709d02b3ea",
-                "shasum": "67d85e8148f3d8d62fc738dd4d7af561f249bd23"
+                "shasum": "31f22b990e336283c482c31c882739b709eb358e"
             },
             "require": {
                 "greenpeace/planet4-wordpress-upstream": "4.8"
@@ -569,9 +569,9 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://greenpeace.github.io/planet4-registry//dist/greenpeace/planet4-wordpress-upstream/greenpeace-planet4-wordpress-upstream-4.8-002038.zip",
+                "url": "https://p4-composer-registry.greenpeace.org//dist/greenpeace/planet4-wordpress-upstream/greenpeace-planet4-wordpress-upstream-4.8-002038.zip",
                 "reference": "tags/4.8",
-                "shasum": "a939f8700fec0c6c8757b78a490731446fc55e0b"
+                "shasum": "d1f1a8b4417735a3c8043cd63d8e205e83fa0888"
             },
             "type": "library"
         },

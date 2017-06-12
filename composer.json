@@ -5,7 +5,7 @@
 	"repositories": [
 		{
 			"type": "composer",
-			"url": "https://greenpeace.github.io/planet4-registry/"
+			"url": "https://p4-composer-registry.greenpeace.org/"
 		},
 		{
 			"type": "composer",
