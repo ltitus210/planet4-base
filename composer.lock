@@ -4,6 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
+    "hash": "010ce21ba5f1c1f82d71d4f061a43e76",
     "content-hash": "50bd21fbf2ec10d6bbf77af6bf305b10",
     "packages": [
         {
@@ -63,7 +64,7 @@
                 "ssl",
                 "tls"
             ],
-            "time": "2017-03-06T11:59:08+00:00"
+            "time": "2017-03-06 11:59:08"
         },
         {
             "name": "composer/composer",
@@ -140,7 +141,7 @@
                 "dependency",
                 "package"
             ],
-            "time": "2017-05-17T06:17:53+00:00"
+            "time": "2017-05-17 06:17:53"
         },
         {
             "name": "composer/installers",
@@ -254,7 +255,7 @@
                 "zend",
                 "zikula"
             ],
-            "time": "2017-04-24T06:37:16+00:00"
+            "time": "2017-04-24 06:37:16"
         },
         {
             "name": "composer/semver",
@@ -316,7 +317,7 @@
                 "validation",
                 "versioning"
             ],
-            "time": "2016-08-30T16:08:34+00:00"
+            "time": "2016-08-30 16:08:34"
         },
         {
             "name": "composer/spdx-licenses",
@@ -377,21 +378,21 @@
                 "spdx",
                 "validator"
             ],
-            "time": "2017-04-03T19:08:52+00:00"
+            "time": "2017-04-03 19:08:52"
         },
         {
             "name": "greenpeace/planet4-child-theme",
             "version": "v0.1.2",
             "source": {
                 "type": "git",
-                "url": "https://github.com/greenpeace/planet4-child-theme.git",
+                "url": "git@github.com:greenpeace/planet4-child-theme.git",
                 "reference": "bba52feb8d8bb3d80b76fb008626e853ee335cc8"
             },
             "dist": {
-                "type": "zip",
-                "url": "https://p4-composer-registry.greenpeace.org//dist/greenpeace/planet4-child-theme/greenpeace-planet4-child-theme-bba52feb8d8bb3d80b76fb008626e853ee335cc8-zip-3cc591.zip",
+                "type": "tar",
+                "url": "https://p4-composer-registry.greenpeace.org//dist/greenpeace/planet4-child-theme/greenpeace-planet4-child-theme-bba52feb8d8bb3d80b76fb008626e853ee335cc8-zip-3cc591.tar",
                 "reference": "bba52feb8d8bb3d80b76fb008626e853ee335cc8",
-                "shasum": "e2abe1dc377f07c1dfd3ac073f8c2835a1c01606"
+                "shasum": "7644b0c19d9e84f7e868decb9af266912e768fe3"
             },
             "require": {
                 "wpackagist-plugin/timber-library": "0.22.*"
@@ -421,21 +422,21 @@
                 "wiki": "https://github.com/greenpeace/planet4-child-theme/wiki",
                 "source": "https://github.com/greenpeace/planet4-child-theme"
             },
-            "time": "2017-03-24T09:32:19+00:00"
+            "time": "2017-03-24 09:32:19"
         },
         {
             "name": "greenpeace/planet4-content-default",
             "version": "0.2.7",
             "source": {
                 "type": "git",
-                "url": "https://github.com/greenpeace/planet4-content-default.git",
+                "url": "git@github.com:greenpeace/planet4-content-default.git",
                 "reference": "7b7bf1e68b66d6040f946994dad1313c7122eaa2"
             },
             "dist": {
-                "type": "zip",
-                "url": "https://p4-composer-registry.greenpeace.org//dist/greenpeace/planet4-content-default/greenpeace-planet4-content-default-7b7bf1e68b66d6040f946994dad1313c7122eaa2-zip-6fb668.zip",
+                "type": "tar",
+                "url": "https://p4-composer-registry.greenpeace.org//dist/greenpeace/planet4-content-default/greenpeace-planet4-content-default-7b7bf1e68b66d6040f946994dad1313c7122eaa2-zip-6fb668.tar",
                 "reference": "7b7bf1e68b66d6040f946994dad1313c7122eaa2",
-                "shasum": "830f8732b4edbc4b1c20e89631723999f062803f"
+                "shasum": "1a68e95f0eadfaca0164a7b76711a3c6cfb541e1"
             },
             "type": "library",
             "scripts": {
@@ -485,25 +486,21 @@
                 }
             ],
             "description": "Scripts that control the default content of the default planet4 installation",
-            "support": {
-                "source": "https://github.com/greenpeace/planet4-content-default/tree/master",
-                "issues": "https://github.com/greenpeace/planet4-content-default/issues"
-            },
-            "time": "2017-06-12T13:59:43+00:00"
+            "time": "2017-06-12 13:59:43"
         },
         {
             "name": "greenpeace/planet4-master-theme",
             "version": "v0.1.2",
             "source": {
                 "type": "git",
-                "url": "https://github.com/greenpeace/planet4-master-theme.git",
+                "url": "git@github.com:greenpeace/planet4-master-theme.git",
                 "reference": "02fd37e625bc42853c06a6ba36550244e0630f55"
             },
             "dist": {
-                "type": "zip",
-                "url": "https://p4-composer-registry.greenpeace.org//dist/greenpeace/planet4-master-theme/greenpeace-planet4-master-theme-02fd37e625bc42853c06a6ba36550244e0630f55-zip-207013.zip",
+                "type": "tar",
+                "url": "https://p4-composer-registry.greenpeace.org//dist/greenpeace/planet4-master-theme/greenpeace-planet4-master-theme-02fd37e625bc42853c06a6ba36550244e0630f55-zip-207013.tar",
                 "reference": "02fd37e625bc42853c06a6ba36550244e0630f55",
-                "shasum": "7a0730f5c2a363f75890b9dd0b1bad6ff9d8fc91"
+                "shasum": "c97ceeb636074974cbd41bd9b3ed4fd46b9ab805"
             },
             "require": {
                 "wpackagist-plugin/timber-library": "0.22.*"
@@ -537,7 +534,7 @@
                 "wiki": "https://github.com/greenpeace/planet4-master-theme/wiki",
                 "source": "https://github.com/greenpeace/planet4-master-theme"
             },
-            "time": "2017-03-24T12:05:06+00:00"
+            "time": "2017-03-24 12:05:06"
         },
         {
             "name": "greenpeace/planet4-wordpress",
@@ -548,16 +545,16 @@
                 "reference": "fc61b288b1d88346b9908b4d81f2dd709d02b3ea"
             },
             "dist": {
-                "type": "zip",
-                "url": "https://p4-composer-registry.greenpeace.org//dist/greenpeace/planet4-wordpress/greenpeace-planet4-wordpress-4.8-545b82.zip",
+                "type": "tar",
+                "url": "https://p4-composer-registry.greenpeace.org//dist/greenpeace/planet4-wordpress/greenpeace-planet4-wordpress-4.8-545b82.tar",
                 "reference": "fc61b288b1d88346b9908b4d81f2dd709d02b3ea",
-                "shasum": "31f22b990e336283c482c31c882739b709eb358e"
+                "shasum": "a87fa259e96d1f3855676f831f88065e8973e1ab"
             },
             "require": {
                 "greenpeace/planet4-wordpress-upstream": "4.8"
             },
             "type": "library",
-            "time": "2017-06-09T10:09:54+00:00"
+            "time": "2017-06-09 10:09:54"
         },
         {
             "name": "greenpeace/planet4-wordpress-upstream",
@@ -568,10 +565,10 @@
                 "reference": "tags/4.8"
             },
             "dist": {
-                "type": "zip",
-                "url": "https://p4-composer-registry.greenpeace.org//dist/greenpeace/planet4-wordpress-upstream/greenpeace-planet4-wordpress-upstream-4.8-002038.zip",
+                "type": "tar",
+                "url": "https://p4-composer-registry.greenpeace.org//dist/greenpeace/planet4-wordpress-upstream/greenpeace-planet4-wordpress-upstream-4.8-002038.tar",
                 "reference": "tags/4.8",
-                "shasum": "d1f1a8b4417735a3c8043cd63d8e205e83fa0888"
+                "shasum": "80e1cb258d5f7381b375ca68abd61aa0f872d079"
             },
             "type": "library"
         },
@@ -640,7 +637,7 @@
                 "json",
                 "schema"
             ],
-            "time": "2017-05-16T21:06:09+00:00"
+            "time": "2017-05-16 21:06:09"
         },
         {
             "name": "mustache/mustache",
@@ -686,7 +683,7 @@
                 "mustache",
                 "templating"
             ],
-            "time": "2016-07-31T06:18:27+00:00"
+            "time": "2016-07-31 06:18:27"
         },
         {
             "name": "nb/oxymel",
@@ -727,7 +724,7 @@
             "keywords": [
                 "xml"
             ],
-            "time": "2013-02-24T15:01:54+00:00"
+            "time": "2013-02-24 15:01:54"
         },
         {
             "name": "psr/container",
@@ -776,7 +773,7 @@
                 "container-interop",
                 "psr"
             ],
-            "time": "2017-02-14T16:28:37+00:00"
+            "time": "2017-02-14 16:28:37"
         },
         {
             "name": "psr/log",
@@ -823,7 +820,7 @@
                 "psr",
                 "psr-3"
             ],
-            "time": "2016-10-10T12:19:37+00:00"
+            "time": "2016-10-10 12:19:37"
         },
         {
             "name": "ramsey/array_column",
@@ -868,7 +865,7 @@
                 "array_column",
                 "column"
             ],
-            "time": "2015-03-20T22:07:39+00:00"
+            "time": "2015-03-20 22:07:39"
         },
         {
             "name": "rmccue/requests",
@@ -917,7 +914,7 @@
                 "iri",
                 "sockets"
             ],
-            "time": "2016-10-13T00:11:37+00:00"
+            "time": "2016-10-13 00:11:37"
         },
         {
             "name": "seld/cli-prompt",
@@ -965,20 +962,20 @@
                 "input",
                 "prompt"
             ],
-            "time": "2017-03-18T11:32:45+00:00"
+            "time": "2017-03-18 11:32:45"
         },
         {
             "name": "seld/jsonlint",
-            "version": "1.6.0",
+            "version": "1.6.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Seldaek/jsonlint.git",
-                "reference": "791f8c594f300d246cdf01c6b3e1e19611e301d8"
+                "reference": "50d63f2858d87c4738d5b76a7dcbb99fa8cf7c77"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Seldaek/jsonlint/zipball/791f8c594f300d246cdf01c6b3e1e19611e301d8",
-                "reference": "791f8c594f300d246cdf01c6b3e1e19611e301d8",
+                "url": "https://api.github.com/repos/Seldaek/jsonlint/zipball/50d63f2858d87c4738d5b76a7dcbb99fa8cf7c77",
+                "reference": "50d63f2858d87c4738d5b76a7dcbb99fa8cf7c77",
                 "shasum": ""
             },
             "require": {
@@ -1014,7 +1011,7 @@
                 "parser",
                 "validator"
             ],
-            "time": "2017-03-06T16:42:24+00:00"
+            "time": "2017-06-18 15:11:04"
         },
         {
             "name": "seld/phar-utils",
@@ -1058,7 +1055,7 @@
             "keywords": [
                 "phra"
             ],
-            "time": "2015-10-13T18:44:15+00:00"
+            "time": "2015-10-13 18:44:15"
         },
         {
             "name": "symfony/config",
@@ -1118,7 +1115,7 @@
             ],
             "description": "Symfony Config Component",
             "homepage": "https://symfony.com",
-            "time": "2017-06-02T18:07:20+00:00"
+            "time": "2017-06-02 18:07:20"
         },
         {
             "name": "symfony/console",
@@ -1187,7 +1184,7 @@
             ],
             "description": "Symfony Console Component",
             "homepage": "https://symfony.com",
-            "time": "2017-06-02T19:24:58+00:00"
+            "time": "2017-06-02 19:24:58"
         },
         {
             "name": "symfony/debug",
@@ -1243,7 +1240,7 @@
             ],
             "description": "Symfony Debug Component",
             "homepage": "https://symfony.com",
-            "time": "2017-06-01T21:01:25+00:00"
+            "time": "2017-06-01 21:01:25"
         },
         {
             "name": "symfony/dependency-injection",
@@ -1313,7 +1310,7 @@
             ],
             "description": "Symfony DependencyInjection Component",
             "homepage": "https://symfony.com",
-            "time": "2017-06-06T03:13:52+00:00"
+            "time": "2017-06-06 03:13:52"
         },
         {
             "name": "symfony/event-dispatcher",
@@ -1376,7 +1373,7 @@
             ],
             "description": "Symfony EventDispatcher Component",
             "homepage": "https://symfony.com",
-            "time": "2017-06-04T18:15:29+00:00"
+            "time": "2017-06-04 18:15:29"
         },
         {
             "name": "symfony/filesystem",
@@ -1425,7 +1422,7 @@
             ],
             "description": "Symfony Filesystem Component",
             "homepage": "https://symfony.com",
-            "time": "2017-05-28T14:08:56+00:00"
+            "time": "2017-05-28 14:08:56"
         },
         {
             "name": "symfony/finder",
@@ -1474,7 +1471,7 @@
             ],
             "description": "Symfony Finder Component",
             "homepage": "https://symfony.com",
-            "time": "2017-06-01T21:01:25+00:00"
+            "time": "2017-06-01 21:01:25"
         },
         {
             "name": "symfony/polyfill-mbstring",
@@ -1533,7 +1530,7 @@
                 "portable",
                 "shim"
             ],
-            "time": "2017-06-09T14:24:12+00:00"
+            "time": "2017-06-09 14:24:12"
         },
         {
             "name": "symfony/process",
@@ -1582,7 +1579,7 @@
             ],
             "description": "Symfony Process Component",
             "homepage": "https://symfony.com",
-            "time": "2017-05-22T12:32:03+00:00"
+            "time": "2017-05-22 12:32:03"
         },
         {
             "name": "symfony/translation",
@@ -1647,7 +1644,7 @@
             ],
             "description": "Symfony Translation Component",
             "homepage": "https://symfony.com",
-            "time": "2017-05-22T07:42:36+00:00"
+            "time": "2017-05-22 07:42:36"
         },
         {
             "name": "symfony/yaml",
@@ -1702,7 +1699,7 @@
             ],
             "description": "Symfony Yaml Component",
             "homepage": "https://symfony.com",
-            "time": "2017-06-02T22:05:06+00:00"
+            "time": "2017-06-02 22:05:06"
         },
         {
             "name": "wp-cli/autoload-splitter",
@@ -1743,7 +1740,7 @@
             ],
             "description": "Composer plugin for splitting a generated autoloader into two distinct parts.",
             "homepage": "https://wp-cli.org",
-            "time": "2017-05-03T06:21:26+00:00"
+            "time": "2017-05-03 06:21:26"
         },
         {
             "name": "wp-cli/cache-command",
@@ -1795,7 +1792,7 @@
             ],
             "description": "Manage object and transient caches.",
             "homepage": "https://github.com/wp-cli/cache-command",
-            "time": "2017-05-30T18:00:27+00:00"
+            "time": "2017-05-30 18:00:27"
         },
         {
             "name": "wp-cli/checksum-command",
@@ -1846,20 +1843,20 @@
             ],
             "description": "Verify WordPress core checksums.",
             "homepage": "https://github.com/wp-cli/checksum-command",
-            "time": "2017-05-30T18:55:36+00:00"
+            "time": "2017-05-30 18:55:36"
         },
         {
             "name": "wp-cli/config-command",
-            "version": "v1.1.1",
+            "version": "v1.1.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/wp-cli/config-command.git",
-                "reference": "eb50ae43b9c43282e71cce73535fdba73bd36dff"
+                "reference": "3d812504a4a6c0ed690bbea839c07859aedd2edd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/wp-cli/config-command/zipball/eb50ae43b9c43282e71cce73535fdba73bd36dff",
-                "reference": "eb50ae43b9c43282e71cce73535fdba73bd36dff",
+                "url": "https://api.github.com/repos/wp-cli/config-command/zipball/3d812504a4a6c0ed690bbea839c07859aedd2edd",
+                "reference": "3d812504a4a6c0ed690bbea839c07859aedd2edd",
                 "shasum": ""
             },
             "require-dev": {
@@ -1900,7 +1897,7 @@
             ],
             "description": "Manage the wp-config.php file.",
             "homepage": "https://github.com/wp-cli/config-command",
-            "time": "2017-05-30T18:56:17+00:00"
+            "time": "2017-06-20 15:38:51"
         },
         {
             "name": "wp-cli/core-command",
@@ -1959,7 +1956,7 @@
             ],
             "description": "Download, install, update and manage a WordPress install.",
             "homepage": "https://github.com/wp-cli/core-command",
-            "time": "2017-05-30T18:56:42+00:00"
+            "time": "2017-05-30 18:56:42"
         },
         {
             "name": "wp-cli/cron-command",
@@ -2015,7 +2012,7 @@
             ],
             "description": "Manage WP-Cron events and schedules.",
             "homepage": "https://github.com/wp-cli/cron-command",
-            "time": "2017-05-30T18:58:24+00:00"
+            "time": "2017-05-30 18:58:24"
         },
         {
             "name": "wp-cli/db-command",
@@ -2079,7 +2076,7 @@
             ],
             "description": "Perform basic database operations using credentials stored in wp-config.php.",
             "homepage": "https://github.com/wp-cli/db-command",
-            "time": "2017-05-30T18:57:35+00:00"
+            "time": "2017-05-30 18:57:35"
         },
         {
             "name": "wp-cli/entity-command",
@@ -2147,7 +2144,7 @@
             ],
             "description": "Manage WordPress core entities.",
             "homepage": "https://github.com/wp-cli/entity-command",
-            "time": "2017-05-30T18:59:14+00:00"
+            "time": "2017-05-30 18:59:14"
         },
         {
             "name": "wp-cli/eval-command",
@@ -2201,7 +2198,7 @@
             ],
             "description": "Execute arbitrary PHP code.",
             "homepage": "https://github.com/wp-cli/eval-command",
-            "time": "2017-05-30T19:00:48+00:00"
+            "time": "2017-05-30 19:00:48"
         },
         {
             "name": "wp-cli/export-command",
@@ -2255,7 +2252,7 @@
             ],
             "description": "Export WordPress content to a WXR file.",
             "homepage": "https://github.com/wp-cli/export-command",
-            "time": "2017-05-30T19:01:34+00:00"
+            "time": "2017-05-30 19:01:34"
         },
         {
             "name": "wp-cli/extension-command",
@@ -2334,7 +2331,7 @@
             ],
             "description": "Manage WordPress plugins and themes.",
             "homepage": "https://github.com/wp-cli/extension-command",
-            "time": "2017-06-08T09:01:02+00:00"
+            "time": "2017-06-08 09:01:02"
         },
         {
             "name": "wp-cli/import-command",
@@ -2387,7 +2384,7 @@
             ],
             "description": "Import content from a WXR file.",
             "homepage": "https://github.com/wp-cli/import-command",
-            "time": "2017-05-30T19:02:16+00:00"
+            "time": "2017-05-30 19:02:16"
         },
         {
             "name": "wp-cli/language-command",
@@ -2442,20 +2439,20 @@
             ],
             "description": "Manage language packs.",
             "homepage": "https://github.com/wp-cli/language-command",
-            "time": "2017-05-30T21:29:09+00:00"
+            "time": "2017-05-30 21:29:09"
         },
         {
             "name": "wp-cli/media-command",
-            "version": "v1.0.2",
+            "version": "v1.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/wp-cli/media-command.git",
-                "reference": "5ea664836616a350c31a60f9df8308181e741134"
+                "reference": "dfa3b80a8d7fbc9fb90753d5bf59ba7efd541530"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/wp-cli/media-command/zipball/5ea664836616a350c31a60f9df8308181e741134",
-                "reference": "5ea664836616a350c31a60f9df8308181e741134",
+                "url": "https://api.github.com/repos/wp-cli/media-command/zipball/dfa3b80a8d7fbc9fb90753d5bf59ba7efd541530",
+                "reference": "dfa3b80a8d7fbc9fb90753d5bf59ba7efd541530",
                 "shasum": ""
             },
             "require": {
@@ -2496,7 +2493,7 @@
             ],
             "description": "Import and regenerate attachments.",
             "homepage": "https://github.com/wp-cli/media-command",
-            "time": "2017-05-30T21:25:25+00:00"
+            "time": "2017-06-16 08:49:06"
         },
         {
             "name": "wp-cli/mustangostang-spyc",
@@ -2544,7 +2541,7 @@
             ],
             "description": "A simple YAML loader/dumper class for PHP (WP-CLI fork)",
             "homepage": "https://github.com/mustangostang/spyc/",
-            "time": "2017-04-25T11:26:20+00:00"
+            "time": "2017-04-25 11:26:20"
         },
         {
             "name": "wp-cli/package-command",
@@ -2602,20 +2599,20 @@
             ],
             "description": "Manage WP-CLI packages.",
             "homepage": "https://github.com/wp-cli/package-command",
-            "time": "2017-05-30T19:28:38+00:00"
+            "time": "2017-05-30 19:28:38"
         },
         {
             "name": "wp-cli/php-cli-tools",
-            "version": "v0.11.2",
+            "version": "v0.11.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/wp-cli/php-cli-tools.git",
-                "reference": "6d231e5538b2c0db909b2cb49d30a45faf20069a"
+                "reference": "09075e5a5ba804df43e148f887cbf4466bebfa2c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/wp-cli/php-cli-tools/zipball/6d231e5538b2c0db909b2cb49d30a45faf20069a",
-                "reference": "6d231e5538b2c0db909b2cb49d30a45faf20069a",
+                "url": "https://api.github.com/repos/wp-cli/php-cli-tools/zipball/09075e5a5ba804df43e148f887cbf4466bebfa2c",
+                "reference": "09075e5a5ba804df43e148f887cbf4466bebfa2c",
                 "shasum": ""
             },
             "require": {
@@ -2652,7 +2649,7 @@
                 "cli",
                 "console"
             ],
-            "time": "2017-02-15T12:17:55+00:00"
+            "time": "2017-06-08 12:06:09"
         },
         {
             "name": "wp-cli/rewrite-command",
@@ -2705,7 +2702,7 @@
             ],
             "description": "Manage rewrite rules.",
             "homepage": "https://github.com/wp-cli/rewrite-command",
-            "time": "2017-05-30T19:40:20+00:00"
+            "time": "2017-05-30 19:40:20"
         },
         {
             "name": "wp-cli/role-command",
@@ -2763,7 +2760,7 @@
             ],
             "description": "Manage user roles and capabilities.",
             "homepage": "https://github.com/wp-cli/role-command",
-            "time": "2017-05-30T21:23:36+00:00"
+            "time": "2017-05-30 21:23:36"
         },
         {
             "name": "wp-cli/scaffold-command",
@@ -2821,7 +2818,7 @@
             ],
             "description": "Generate code for post types, taxonomies, plugins, child themes, etc.",
             "homepage": "https://github.com/wp-cli/scaffold-command",
-            "time": "2017-05-30T21:18:58+00:00"
+            "time": "2017-05-30 21:18:58"
         },
         {
             "name": "wp-cli/search-replace-command",
@@ -2875,7 +2872,7 @@
             ],
             "description": "Search/replace strings in the database.",
             "homepage": "https://github.com/wp-cli/search-replace-command",
-            "time": "2017-05-30T19:40:57+00:00"
+            "time": "2017-05-30 19:40:57"
         },
         {
             "name": "wp-cli/server-command",
@@ -2928,7 +2925,7 @@
             ],
             "description": "Launch PHP's built-in web server for this specific WordPress installation.",
             "homepage": "https://github.com/wp-cli/server-command",
-            "time": "2017-05-30T19:41:53+00:00"
+            "time": "2017-05-30 19:41:53"
         },
         {
             "name": "wp-cli/shell-command",
@@ -2982,7 +2979,7 @@
             ],
             "description": "Interactive PHP console.",
             "homepage": "https://github.com/wp-cli/shell-command",
-            "time": "2017-05-30T19:43:29+00:00"
+            "time": "2017-05-30 19:43:29"
         },
         {
             "name": "wp-cli/super-admin-command",
@@ -3035,7 +3032,7 @@
             ],
             "description": "Manage super admins on WordPress multisite.",
             "homepage": "https://github.com/wp-cli/super-admin-command",
-            "time": "2017-05-30T19:44:45+00:00"
+            "time": "2017-05-30 19:44:45"
         },
         {
             "name": "wp-cli/widget-command",
@@ -3093,7 +3090,7 @@
             ],
             "description": "Manage widgets and sidebars.",
             "homepage": "https://github.com/wp-cli/widget-command",
-            "time": "2017-05-30T21:14:12+00:00"
+            "time": "2017-05-30 21:14:12"
         },
         {
             "name": "wp-cli/wp-cli",
@@ -3192,7 +3189,7 @@
                 "cli",
                 "wordpress"
             ],
-            "time": "2017-06-06T12:14:53+00:00"
+            "time": "2017-06-06 12:14:53"
         },
         {
             "name": "wpackagist-plugin/timber-library",
