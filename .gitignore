@@ -4,3 +4,5 @@ themes
 vendor
 .idea
 wp-cli.yml
+.DS_Store
+
